@@ -240,10 +240,10 @@ body {
     }
 }
 /* hp */
-@media (max-width: 576px){
+@media (max-width: 360px){
 
     html{
-        font-size: 60%;
+        font-size: 40%;
     }
     .mynavbar .navbar-brand{
         padding-left: 2rem;
@@ -260,8 +260,8 @@ body {
     }
     .simply-countdown>.simply-section{
 
-        padding: 40px;
-        margin: 3px;
+        padding: 30px;
+        margin: 2px;
        
     }
     .profil{
