@@ -1,0 +1,1 @@
+const currentLocation = location.href
