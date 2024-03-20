@@ -253,7 +253,9 @@ body {
         letter-spacing: -1px;
     
     }
-    
+    .offcanvas {
+        overflow:hidden;
+    }
 
     .sticky-top {
         overflow:hidden;
