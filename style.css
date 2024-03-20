@@ -244,10 +244,10 @@ body {
 
     html{
         font-size: 46%;
+        overflow-x: hidden;
     }
-    .mynavbar .navbar-brand{
-        padding-left: 2rem;
-    }
+  
+    
     .mynavbar .navbar-brand,
     .mynavbar .offcanvas-title{
         letter-spacing: -1px;
@@ -264,7 +264,10 @@ body {
 
         padding: 30px;
         margin: 2px;
-       
+    
+    }
+    .row .couple {
+        overflow-x: hidden;
     }
     .profil{
         padding-left:3rem;
