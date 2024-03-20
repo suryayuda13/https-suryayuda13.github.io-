@@ -21,3 +21,15 @@ const observer = new IntersectionObserver((entries) =>{
 });
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+const hamburger = document.querySelector('.navbar-toggler');
+const stickyTop = document.querySelector('sticky-top');
+
+hamburger.addEventListener('click', function(){
+    stickyTop.style.overflow = 'visible';
+});
+
+const offcanvas = document.querySelector('.offcanvas');
+offcanvas.addEventListener('hidden.bs.offcanvas', function(){
+    stickyTop.style.overflow = 'hidden';
+});
