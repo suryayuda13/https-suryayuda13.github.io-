@@ -258,7 +258,7 @@ body {
     }
 
     .sticky-top {
-        overflow:hidden;
+        overflow-x:hidden;
     }
     .simply-countdown>.simply-section{
 
