@@ -233,7 +233,7 @@ body {
         text-align: center;
     }
     .sticky-top {
-        overflow:hidden;
+        overflow-x:hidden;
     }
     .profil .couple {
         transform: translateX(16%);
