@@ -110,7 +110,7 @@ body {
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 100vh;
+    min-height: 70vh;
     margin-top: -2rem;
     padding-top: 13rem;
     color: aliceblue;
@@ -218,14 +218,14 @@ body {
 
 }
 /* tablet */
-@media (max-width: 768px){
+@media (max-width: 770px){
     html{
-        font-size: 65%;
+        font-size: 50%;
     }
     .simply-countdown>.simply-section{
 
-        padding: 60px;
-        margin: 5px;
+        padding: 35px;
+        margin: 2px;
     }
     .mynavbar .nav-link {
 
@@ -239,6 +239,28 @@ body {
         transform: translateX(16%);
     }
 }
+@media (max-width: 365px){
+    html{
+        font-size: 46%;
+    }
+    .simply-countdown>.simply-section{
+
+        padding: 30px;
+        margin: 2px;
+    }
+    .mynavbar .nav-link {
+
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .sticky-top {
+        overflow:hidden;
+    }
+    .profil .couple {
+        transform: translateX(16%);
+    }
+}
+
 /* hp */
 @media (max-width: 360px){
 
