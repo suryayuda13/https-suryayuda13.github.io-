@@ -207,7 +207,7 @@ body {
         padding: 70px;
     }
     .sticky-top {
-        overflow:hidden;
+        overflow-x:hidden;
     }
     .profil .couple {
         transform: translateX(15.5%);
@@ -254,7 +254,7 @@ body {
         text-align: center;
     }
     .sticky-top {
-        overflow:hidden;
+        overflow-x:hidden;
     }
     .profil .couple {
         transform: translateX(16%);
