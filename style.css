@@ -191,11 +191,17 @@ body {
     padding-top: 6rem;
     padding-bottom: 4rem;
 }
-.lokasi h2{
+.lokasi h2,
+.story h2{
     font-family:"Sofia", cursive;
 }
 .lokasi .description{
     padding-top: 1rem;
+}
+.lokasi .card {
+    background-color: rgba(255, 255, 255, 0.247) !important;
+    border: 1px solid #999;
+    
 }
 .photo-galerry {
     display: flex;
@@ -279,7 +285,7 @@ body {
         font-size: 1.5rem;
         text-align: center;
     }
-    .sticky-top {
+    .row .couple {
         overflow-x:hidden;
     }
     .profil .couple {
